@@ -9,9 +9,9 @@
 <body>
     <header>
         <nav>
-            <a href="index.php" class="logo">Fatias da Dani</a>
+            <a href="index.html" class="logo">Fatias da Dani</a>
             <ul>
-                <li><a href="index.php">Início</a></li>
+                <li><a href="index.html">Início</a></li>
                 <li><a href="cardapio.php">Cardápio</a></li>
                 <li><a href="galeria.php">Galeria</a></li>
                 <li><a href="depoimentos.php">Depoimentos</a></li>
