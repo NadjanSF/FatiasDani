@@ -217,7 +217,7 @@ body::before {
     /* --- Configuração da Imagem --- */
     
     /* 1. Caminho da imagem (coloque a imagem na mesma pasta do css) */
-    background-image: url('Dani\ Bolos.png'); 
+    background-image: url('DaniBolos.png'); 
     
     /* 2. Posição e tamanho */
     background-position: center center;
