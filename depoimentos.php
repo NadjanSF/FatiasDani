@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depoimentos - Fatias da Dani</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.php" class="logo">Fatias da Dani</a>
+            <ul>
+                <li><a href="index.php">Início</a></li>
+                <li><a href="cardapio.php">Cardápio</a></li>
+                <li><a href="galeria.php">Galeria</a></li>
+                <li><a href="depoimentos.php">Depoimentos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>O que nossos clientes dizem</h1>
+
+        <div class="depoimento">
+            <blockquote>
+                "O bolo de chocolate é simplesmente divino! O melhor que já comi. Super recomendo a Fatias da Dani!"
+            </blockquote>
+            <cite>- Maria S.</cite>
+        </div>
+
+        <div class="depoimento">
+            <blockquote>
+                "Atendimento impecável e o bolo de cenoura estava perfeito. Virou minha confeitaria favorita!"
+            </blockquote>
+            <cite>- João P.</cite>
+        </div>
+
+        <div class="depoimento">
+            <blockquote>
+                "Encomendei para o aniversário da minha filha e todos amaram. Lindo e delicioso."
+            </blockquote>
+            <cite>- Ana C.</cite>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fatias da Dani. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

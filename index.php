@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatias da Dani - Bolos Caseiros</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.php" class="logo">Fatias da Dani</a>
+            <ul>
+                <li><a href="index.php">Início</a></li>
+                <li><a href="cardapio.php">Cardápio</a></li>
+                <li><a href="galeria.php">Galeria</a></li>
+                <li><a href="depoimentos.php">Depoimentos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Bolos feitos com amor, para momentos especiais</h1>
+            <p>Experimente nossas delícias caseiras e se apaixone a cada fatia.</p>
+            <a href="cardapio.php" class="btn">Veja nosso cardápio</a>
+        </section>
+
+        <section class="contato">
+            <h2>Encomendas e Contato</h2>
+            <p>Faça sua encomenda pelo nosso telefone ou diretamente pelo WhatsApp!</p>
+            <p><strong>Telefone:</strong> (11) 95292-08183</p>
+            <a href="https://wa.me/55119529208183" target="_blank" class="whatsapp-link">
+                <i class="fab fa-whatsapp"></i> Chamar no WhatsApp
+            </a>
+            <hr>
+            <h3>Endereço</h3>
+            <p>RUA TOME DA ROCHA, 87 - JARDIM ELBA (RUA DA FEIRA DE DOMINGO)</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fatias da Dani. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
