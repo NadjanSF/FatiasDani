@@ -22,7 +22,8 @@ body {
     max-width: 960px;
     margin: 2rem auto;
     padding: 2rem;
-    background-color: #ffffff; /* Fundo branco para o conteúdo */
+     /* MODIFICADO: Fundo branco com 95% de opacidade para ver a marca d'água */
+    background-color: rgba(255, 255, 255, 0.95); 
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
@@ -200,4 +201,33 @@ footer {
     margin-top: 2rem;
     background: #333;
     color: #fff;
+}
+/* ============================================== */
+/* === CÓDIGO DA MARCA D'ÁGUA ADICIONADO AQUI === */
+/* ============================================== */
+
+body::before {
+    content: ''; /* Essencial para o pseudo-elemento funcionar */
+    position: fixed; /* Fixa a imagem na tela */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    /* --- Configuração da Imagem --- */
+    
+    /* 1. Caminho da imagem (coloque a imagem na mesma pasta do css) */
+    background-image: url('Dani Bolos.jpg'); 
+    
+    /* 2. Posição e tamanho */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain; /* Garante que a imagem inteira apareça */
+
+    /* 3. Efeito de transparência */
+    /* ATENÇÃO: Comece com um valor baixo (0.1 ou 0.15) */
+    opacity: 0.1;
+
+    /* 4. Garante que a imagem fique atrás de TUDO */
+    z-index: -1;
 }
